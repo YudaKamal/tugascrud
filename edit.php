@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="edit.php" method="post">
+    <form action="proses-edit.php" method="post">
         <?php
         include 'koneksi.php';
         $nama  = $_GET['nama'];
